@@ -1,0 +1,17 @@
+body {
+    background-color: #3E54A3;
+}
+.disabled{
+    display: none;
+}
+.enabled{
+    display: block;
+}
+svg {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 150px;
+	width: 150px;
+}
