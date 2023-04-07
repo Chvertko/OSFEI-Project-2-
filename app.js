@@ -24,10 +24,10 @@ function game(userChoice) {
     const userCondition = userChoice === "rock" && computerChoice === "scissors" || userChoice === "paper" && computerChoice === "rock" || userChoice === "scissors" && computerChoice === "paper"
     const computerCondition = computerChoice === "rock" && userChoice === "scissors" || computerChoice === "paper" && userChoice === "rock" || computerChoice === "scissors" && userChoice === "paper"
     // Update user choice display
-    userChoiceDisplay.innerHTML = `<img src="/${userChoice}.png" alt="${userChoice}" width="150px" height="150px">`;
+    userChoiceDisplay.innerHTML = `<img src="./assets/${userChoice}.png" alt="${userChoice}" width="150px" height="150px">`;
   
     // Update computer choice display
-    computerChoiceDisplay.innerHTML = `<img src="/${computerChoice}.png" alt="${computerChoice}" width="150px" height="150px">`;
+    computerChoiceDisplay.innerHTML = `<img src="./assets/${computerChoice}.png" alt="${computerChoice}" width="150px" height="150px">`;
   
     // Determine winner and update scores
     if (userCondition) {
